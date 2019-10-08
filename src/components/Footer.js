@@ -9,7 +9,7 @@ class Footer extends React.Component {
                         <li><a href="https://www.facebook.com/fracturedlightstudio/" className="icon fa-facebook">  Follow us on Facebook</a></li>
                     </ul>
                     <ul className="copyright">
-                        <li>&copy; Fractured Light Studio</li>
+                        <li>&copy; {new Date().getFullYear()} Fractured Light Studio</li>
                     </ul>
                 </div>
             </div>
